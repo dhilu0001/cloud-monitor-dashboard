@@ -1,4 +1,3 @@
-import { useLoaderData } from "react-router-dom";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 
@@ -13,10 +12,6 @@ import {
 } from "../../components";
 
 const Landing = () => {
-  const data = useLoaderData();
-
-  console.log("loading router", data);
-
   return (
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2} className={styles.dashboard}>
