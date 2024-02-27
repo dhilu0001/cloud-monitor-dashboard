@@ -1,0 +1,9 @@
+.dashboard {
+  height: 100%;
+}
+.notificationContainer {
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr 5fr;
+  gap: 12px;
+  height: 810px;
+}

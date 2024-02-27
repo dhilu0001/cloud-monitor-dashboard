@@ -1,3 +1,5 @@
-export const LandingLoader = async () => {
+const LandingLoader = async () => {
   return "something";
 };
+
+export default LandingLoader;

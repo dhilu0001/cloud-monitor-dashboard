@@ -1,0 +1,10 @@
+.alertContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  height: 250px;
+}
+
+.alert {
+  margin: 5px;
+}

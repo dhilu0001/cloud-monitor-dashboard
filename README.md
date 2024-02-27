@@ -28,7 +28,32 @@ This project is a Cloud Monitor Dashboard built using the Vite + React template.
 
 ## Project Structure
 
-tbd
+cloud-monitor-dashboard/
+|-- src/
+| |-- components/
+| | |-- alerts/
+| | |-- cloud-resources-grid/
+| | |-- cpu-usage/
+| | |-- memory-consumption/
+| | |-- navbar/
+| | |-- resource-usage/
+| | |-- server-status/
+| | |-- index.jsx
+| |-- pages/
+| | |-- error/
+| | |-- home-layout/
+| | |-- landing/
+| | |-- index.js
+| |-- App.jsx
+| |-- index.css
+| |-- main.jsx
+|-- package.json
+|-- package-lock.json
+|-- .eslintrc.cjs
+|-- index.html
+|-- .gitignore
+|-- README.md
+|-- vite.config
 
 ## Getting Started
 

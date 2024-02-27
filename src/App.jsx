@@ -1,8 +1,5 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-
-import { Home, Error, Landing } from "./pages";
-
-import { LandingLoader } from "./pages/landing/LandingLoader";
+import { Home, Error, Landing, LandingLoader } from "./pages";
 
 const router = createBrowserRouter([
   {
@@ -22,8 +19,9 @@ const router = createBrowserRouter([
     element: <Error />,
   },
 ]);
-function App() {
+
+const App = () => {
   return <RouterProvider router={router} />;
-}
+};
 
 export default App;
