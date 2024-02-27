@@ -6,6 +6,7 @@ import Paper from "@mui/material/Paper";
 import IconButton from "@mui/material/IconButton";
 import ClearIcon from "@mui/icons-material/Clear";
 import SearchIcon from "@mui/icons-material/Search";
+import LinearProgress from "@mui/material/LinearProgress";
 
 import { fetchCloudResources } from "../../api-mocks/mockApi";
 import { columns } from "./columnDef";
@@ -30,7 +31,7 @@ const CloudResourcesGrid = () => {
   };
 
   if (isLoading) {
-    return;
+    return <LinearProgress />;
   }
 
   const filteredData = data?.filter((item) => {

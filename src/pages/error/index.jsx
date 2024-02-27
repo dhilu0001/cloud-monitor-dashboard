@@ -1,6 +1,6 @@
 import { Link, useRouteError } from "react-router-dom";
 import img from "../../assets/not-found.svg";
-
+import { Typography } from "@mui/material";
 import styles from "./style.module.css";
 
 const Error = () => {
@@ -10,11 +10,13 @@ const Error = () => {
     return (
       <div className={styles.error}>
         <img className={styles.imageContainer} src={img} alt="not found" />
-        <h3 className={styles.title}>Ohh!</h3>
-        <p className={styles.message}>
+        <Typography variant="h3">Ohh!</Typography>
+        <Typography variant="label">
           We cant seem to find page you are looking for
-        </p>
-        <Link to="/">back home</Link>
+        </Typography>
+        <Link to="/">
+          <Typography variant="h5">Back Home</Typography>
+        </Link>
       </div>
     );
   }

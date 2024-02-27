@@ -24,6 +24,8 @@ This project is a Cloud Monitor Dashboard built using the Vite + React template.
 
 - **Vite:** Fast, modern, and scalable build tool for web development.
 - **React:** A JavaScript library for building user interfaces.
+- **Material UI(Including Grid, charts, etc):** Built with Material-UI for a sleek and responsive user interface, including features like grids and charts.
+- **React-query:** Powered by React Query for efficient data fetching, caching, and state management, simplifying asynchronous operations and enhancing overall application performance.
 - **Mock Data:** Simulated data for cloud resources, charts, and notifications.
 
 ## Project Structure

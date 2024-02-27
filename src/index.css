@@ -12,17 +12,9 @@ html {
 }
 
 :root {
-  /* rest of the colors */
+  /* colors */
   --black: #222;
   --white: #fff;
-
-  /* rest of the vars */
-  --backgroundColor: var(--grey-50);
-  --textColor: var(--grey-900);
-  --letterSpacing: 1px;
-  --transition: 0.3s ease-in-out all;
-
-  --view-width: 90vw;
 }
 
 body {
@@ -35,7 +27,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--white);
+  color: aqua;
 }
 
 .page {
